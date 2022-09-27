@@ -183,14 +183,14 @@ const students = [
   // Do NOT use slice, you will be using that for the next challenge!
   // Challenge 10 Code
   
-  let copyBox = []
+  let mysteryMeat = []
   i = 3;
   while(i < 11){
     console.log(students[i]);
-    copyBox.push(students[i]);
+    mysteryMeat.push(students[i]);
     i++;
   }
-    console.log(copyBox);
+    console.log(mysteryMeat);
 
   
 
@@ -277,6 +277,8 @@ const students = [
   let butthead = ["a", "b", "c"];
 
   let doAmerica = beavis.concat(butthead);
+
+  console.log(doAmerica);
 
   i = 0;
   while(i < doAmerica.length){
